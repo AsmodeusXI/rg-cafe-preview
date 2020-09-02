@@ -10,12 +10,12 @@ function App(props) {
   }, []);
 
   return (
-    <div className="app">
+    <main className="app">
       <header className="app-header">RG Cafe Preview</header>
       <section>
 
       </section>
-    </div>
+    </main>
   );
 }
 
