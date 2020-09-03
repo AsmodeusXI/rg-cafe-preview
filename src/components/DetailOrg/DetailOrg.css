@@ -1,0 +1,16 @@
+.detail-org {
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#exit-org {
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin: 1px;
+    color: gray;
+    height: 8px;
+    width: 8px;
+}

@@ -6,3 +6,9 @@
   text-align: center;
   size: 36vh;
 }
+
+.app-body {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+}
