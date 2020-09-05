@@ -1,8 +1,21 @@
 .detail-org {
     flex: 1;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666666;
+}
+
+.detail-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.detail-image img {
+    width: 100%;
+}
+
+.detail-info {
+    flex: 1
 }
 
 #exit-org {

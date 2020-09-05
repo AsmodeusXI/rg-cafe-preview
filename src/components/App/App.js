@@ -18,7 +18,7 @@ function App(props) {
 
   return (
     <main className="app">
-      <header className="app-header">RG Cafe Preview</header>
+      <header className="app-header"><h1>RG Cafe Preview</h1></header>
       <section className="app-body">
         {orgs.length > 0 && !detailOrg && orgCards}
         {detailOrg && <DetailOrg org={detailOrg} setDetailOrg={setDetailOrg} />}

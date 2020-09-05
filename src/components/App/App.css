@@ -1,14 +1,43 @@
+h1, h2, h3, h4, h5 {
+  color: #333333;
+}
+
+p {
+  color: #666666;
+}
+
 .app {
-  margin: 5vh;
+  margin-top: 10px;
 }
 
 .app-header {
   text-align: center;
   size: 36vh;
+  padding: 2vh;
+  background-color: #08a3d4;
+}
+
+.app-header h1 {
+  color: white;
 }
 
 .app-body {
-  margin-left: 10vh;
-  margin-right: 10vh;
   display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (min-width: 780px) {
+  .app-header {
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  .app-body {
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
 }
