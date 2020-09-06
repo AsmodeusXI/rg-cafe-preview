@@ -1,5 +1,6 @@
 import React from 'react';
 import './OrgCard.css';
+import OrgTags from '../OrgTags/OrgTags';
 
 function OrgCard({ org, setDetailOrg }) {
   function handleClick() {
@@ -13,6 +14,7 @@ function OrgCard({ org, setDetailOrg }) {
       </section>
       <section className='org-info'>
         <h2>{org.name}</h2>
+        <OrgTags tags={org.tags} />
         <p>{org.org_desc}</p>
         <a href={org.org_url}>Find them here!</a>
       </section>

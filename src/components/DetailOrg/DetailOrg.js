@@ -1,5 +1,6 @@
 import React from 'react';
 import './DetailOrg.css';
+import OrgTags from '../OrgTags/OrgTags';
 
 function DetailOrg({ org, setDetailOrg }) {
     return (
@@ -7,6 +8,7 @@ function DetailOrg({ org, setDetailOrg }) {
             <section className='detail-info'>
                 <span id={`exit-org`} onClick={() => setDetailOrg(null)}>x</span>
                 <h2>{org.name}</h2>
+                <OrgTags tags={org.tags} />
                 <h3>Contact:</h3>
                 <ul>
                     <li>Email: <a href={`mailto:${org.contact.email}`}>{org.contact.email}</a></li>

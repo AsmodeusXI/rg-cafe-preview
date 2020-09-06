@@ -1,5 +1,6 @@
 .org-card {
     flex: 1;
+    flex-basis: 25%;
     border: 1px solid #666666;
     padding: 10px;
     margin: 10px;
@@ -22,10 +23,5 @@
 
 .org-card:hover {
     background-color: #d5df30;
-    opacity: 0.5;
+    cursor: pointer;
 }
-
-.org-card:hover p, .org-card:hover h2 {
-    opacity: 1;
-}
-
