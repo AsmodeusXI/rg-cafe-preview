@@ -1,0 +1,29 @@
+.detail-org {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666666;
+}
+
+.detail-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.detail-image img {
+    width: 100%;
+}
+
+.detail-info {
+    flex: 1
+}
+
+#exit-org {
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin: 1px;
+    color: gray;
+    height: 8px;
+    width: 8px;
+}

@@ -1,0 +1,27 @@
+.org-card {
+    flex: 1;
+    flex-basis: 25%;
+    border: 1px solid #666666;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.org-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.org-image img {
+    width: 100%;
+}
+
+.org-info {
+    flex: 1;
+}
+
+.org-card:hover {
+    background-color: #d5df30;
+    cursor: pointer;
+}
